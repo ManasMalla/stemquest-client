@@ -75,7 +75,7 @@ export default function Home() {
           Learning today
           <br />
           <span className="opacity-50 line-through decoration-black/50 decoration-[2px]">
-            isn't
+            isn&apos;t
           </span>{" "}
           interesting,
         </h3>
