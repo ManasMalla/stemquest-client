@@ -65,7 +65,7 @@ export default function Landing(props) {
             </div>
           </div>
           <img
-            src="/characters.svg"
+            src="/characters-2.svg"
             className="w-[97%] h-max mb-24 lg:mt-[unset] mt-8"
             alt="Playful young characters jumping excitedly!"
           />
