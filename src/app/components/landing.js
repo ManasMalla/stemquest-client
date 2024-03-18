@@ -17,6 +17,10 @@ export default function Landing(props) {
             className="absolute mix-blend-multiply top-0  rotate-[22deg]"
           />
         </div>
+        <img
+          src="/theanantastudio-logo.svg"
+          className="absolute w-20 h-20 mx-4 mt-2"
+        />
         <div className="h-full w-full flex flex-col z-10 absolute">
           <div className="grow" />
           <img src="/characters.svg" className="w-[97.5%] h-max mb-24" />
