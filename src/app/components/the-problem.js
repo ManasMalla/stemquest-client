@@ -2,9 +2,9 @@ import RightArrow from "./right_arrow";
 
 export default function TheProblem() {
   return (
-    <div className="py-16 bg-blue-500 text-white px-8 flex flex-col">
+    <div className="py-16 bg-blue-500 text-white px-8 lg:px-24 flex flex-col">
       <div className="h-1 w-8 bg-white rounded-full" />
-      <p className="mt-3 text-xl uppercase opacity-20 font-bold">
+      <p className="mt-3 text-xl uppercase opacity-40 font-bold">
         the problem?
       </p>
       {/* <h3 className="text-3xl mt-4 font-semibold uppercase">

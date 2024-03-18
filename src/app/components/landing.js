@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Landing(props) {
   return (
     <div className={`relative ${props.className}`}>
@@ -20,11 +22,13 @@ export default function Landing(props) {
             alt=""
           />
         </div>
-        <img
-          src="/theanantastudio-logo.svg"
-          className="absolute w-20 h-20 mx-4 mt-2"
-          alt="The Ananta Studio."
-        />
+        <Link href="https://theananta.in">
+          <img
+            src="/theanantastudio-logo.svg"
+            className="absolute w-20 h-20 mx-4 mt-2 z-[30]"
+            alt="The Ananta Studio."
+          />
+        </Link>
         <div className="w-full h-[unset] lg:h-full flex flex-col z-10 absolute">
           <div className="grow" />
           <div className="lg:hidden">
