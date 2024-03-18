@@ -27,7 +27,7 @@ export default function Landing(props) {
             <div className="h-[12.5vh] w-full" />
             <img src="/stemquest-logo.png" className="w-[63.62%] mx-auto" />
             <div className="text-center text-[#1E5B85]">
-              <p className="text-2xl font-bold">Discover | Learn | Create</p>
+              <p className="text-lg font-bold">Discover | Learn | Create</p>
               <p className="text-[12px] w-[32ch] mx-auto">
                 Help your children learn with engaging STEM-based educational
                 kits
@@ -36,7 +36,7 @@ export default function Landing(props) {
           </div>
           <img
             src="/characters.svg"
-            className="w-[97.5%] h-max mb-24 lg:mt-[unset] mt-8"
+            className="w-[97%] h-max mb-24 lg:mt-[unset] mt-8"
           />
           {/* <div className="flex">
             <div>
