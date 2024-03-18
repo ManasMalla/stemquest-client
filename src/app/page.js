@@ -3,7 +3,7 @@ import Landing from "./components/landing";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between">
+    <main className="flex min-h-screen flex-col justify-between overflow-x-hidden">
       <div className="flex min-h-screen flex-col justify-between">
         <div className="flex justify-end md:px-24 items-center md:h-screen sky-background">
           <div className="relative h-screen w-full md:w-[unset] md:h-[85vh] md:aspect-[1/2] md:border-[10px] md:border-white md:rounded-[2.5rem] overflow-hidden z-10">
@@ -34,14 +34,14 @@ export default function Home() {
       <div className="relative bg-[#A8E25E] -translate-y-2 z-30">
         <img src="/mixer-1.svg" className="w-1/2 lg:w-1/5 ml-auto" />
       </div>
-      <div className="py-16 px-8 flex flex-col relative">
-        <div className="h-1 w-8 bg-blue-500 rounded-full" />
+      <div className="pt-16 pb-4 px-8 flex flex-col relative">
+        <div className="h-1 w-8 bg-black rounded-full" />
         <p className="mt-3 text-xl uppercase opacity-20 font-bold">the what?</p>
         <h3 className="text-3xl mt-4 font-semibold uppercase">
           Science. Technology.
         </h3>
         <h3 className="text-3xl uppercase">Engineering. Maths.</h3>
-        <p className="mt-8">
+        <p className="mt-6 opacity-70">
           Incorporates experimental interactive hands-on learning through
           real-world applications, igniting creativity and critical thinking,
           and strengthening their foundation.
@@ -71,10 +71,10 @@ export default function Home() {
             ></path>
           </svg>
         </div>
-        <div className="h-8"></div>
+        {/* <div className="h-8"></div> */}
         <img
           src="/chitra-science.svg"
-          className="w-48 absolute -bottom-24 -scale-x-100 -rotate-[22deg] -right-24"
+          className="w-48 absolute -bottom-48 -scale-x-100 -rotate-[22deg] -right-24"
         />
       </div>
       <div className="relative -scale-x-100 z-30">
