@@ -16,10 +16,12 @@ export default function Home() {
             <img
               src="/madeinindia.png"
               className="absolute top-0 z-20  rotate-[22deg]"
+              alt="Made in Bharat"
             />
             <img
               src="/madeinindia2.png"
               className="absolute mix-blend-multiply top-0 z-10 opacity-50 rotate-[22deg]"
+              alt=""
             />
           </div>
         </div>
@@ -28,11 +30,12 @@ export default function Home() {
           <img
             src="/trees-full.svg"
             className="h-[56%] absolute bottom-[18%] right-10"
+            alt=""
           />
         </div>
       </div>
       <div className="relative bg-[#A8E25E] -translate-y-2 z-30">
-        <img src="/mixer-1.svg" className="w-1/2 lg:w-1/5 ml-auto" />
+        <img src="/mixer-1.svg" className="w-1/2 lg:w-1/5 ml-auto" alt="" />
       </div>
       <div className="pt-16 pb-4 px-8 flex flex-col relative">
         <div className="h-1 w-8 bg-black rounded-full" />
@@ -75,10 +78,11 @@ export default function Home() {
         <img
           src="/chitra-science.svg"
           className="w-48 absolute -bottom-48 -scale-x-100 -rotate-[22deg] -right-24"
+          alt="Chitra, the deer holding a microscope signifying experimentation and mystery!"
         />
       </div>
       <div className="relative -scale-x-100 z-30">
-        <img src="/mixer-2.svg" className="w-1/2 lg:w-1/5 ml-auto" />
+        <img src="/mixer-2.svg" className="w-1/2 lg:w-1/5 ml-auto" alt="" />
       </div>
       <div className="py-16 bg-blue-500 text-white px-8 flex flex-col">
         <div className="h-1 w-8 bg-white rounded-full" />

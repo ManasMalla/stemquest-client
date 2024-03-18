@@ -34,3 +34,53 @@
     box-sizing: border-box;
     font-family: "Gellix";
 }
+ .btn-submit {
+    color: #1E5B85;
+    border-radius: 8.25rem;
+    border: 0.0625rem solid #fff;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 3rem !important;
+    width: 13.625rem;
+    white-space: nowrap;
+  }
+  @media only screen and (min-width: 64rem) {
+    .btn-submit {
+      font-size: 1.5rem;
+      max-width: 31.25rem;
+      height: unset;
+      width: unset;
+      height: 5rem !important;
+      padding: 0 3.4375rem !important;
+    }
+  }
+
+  .style_container__ZhG39 {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: none !important;
+    background: none !important;
+  }
+  .style_container__ZhG39 .bg-box,
+  .style_container__ZhG39 .initial {
+    transition: 0.4s;
+  }
+  .style_container__ZhG39 .secondary {
+    transform: translateY(240%);
+    position: absolute;
+    transition: 0.4s;
+  }
+  .style_container__ZhG39:hover .bg-box {
+    transform: scaleX(0.93);
+  }
+  .style_container__ZhG39:hover .initial {
+    transform: translateY(-240%);
+  }
+  .style_container__ZhG39:hover .secondary {
+    transform: translateY(0);
+  }
+  
