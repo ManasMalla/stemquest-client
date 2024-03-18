@@ -34,13 +34,61 @@ export default function Home() {
       <div className="relative bg-[#A8E25E] -translate-y-2 z-30">
         <img src="/mixer-1.svg" className="w-1/2 lg:w-1/5 ml-auto" />
       </div>
-      <div className="py-16 px-8 flex flex-col">
+      <div className="py-16 px-8 flex flex-col relative">
         <div className="h-1 w-8 bg-blue-500 rounded-full" />
+        <p className="mt-3 text-xl uppercase opacity-20 font-bold">the what?</p>
+        <h3 className="text-3xl mt-4 font-semibold uppercase">
+          Science. Technology.
+        </h3>
+        <h3 className="text-3xl uppercase">Engineering. Maths.</h3>
+        <p className="mt-8">
+          Incorporates experimental interactive hands-on learning through
+          real-world applications, igniting creativity and critical thinking,
+          and strengthening their foundation.
+        </p>
+        <div className="w-16 h-16 bg-black rounded-full mt-8 flex items-center justify-center">
+          <svg
+            class="w-6 h-6"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.34106 6.02155L18 6.00006L17.9796 15.6602"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M18 6.00153L6.00037 18"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </div>
+        <div className="h-8"></div>
+        <img
+          src="/chitra-science.svg"
+          className="w-48 absolute -bottom-24 -scale-x-100 -rotate-[22deg] -right-24"
+        />
+      </div>
+      <div className="relative -scale-x-100 z-30">
+        <img src="/mixer-2.svg" className="w-1/2 lg:w-1/5 ml-auto" />
+      </div>
+      <div className="py-16 bg-blue-500 text-white px-8 flex flex-col">
+        <div className="h-1 w-8 bg-white rounded-full" />
         <p className="mt-3 text-xl uppercase opacity-20 font-bold">
           the problem?
         </p>
-        <h3 className="text-3xl mt-4 font-semibold">Learning is not fun,</h3>
-        <h3 className="text-3xl">Knowledge is.</h3>
+        <h3 className="text-3xl mt-4 font-semibold uppercase">
+          Learning is not fun,
+        </h3>
+        <h3 className="text-3xl uppercase">Knowledge is.</h3>
         <p className="mt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut
           ultrices justo. Duis eu sagittis sapien. Phasellus iaculis vitae
