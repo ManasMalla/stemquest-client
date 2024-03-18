@@ -41,7 +41,7 @@ export default function Landing(props) {
                 kits
               </p>
               <div className="mt-4 mx-auto w-max">
-                <a href="">
+                <a href="mailto:stemquest@theananta.in">
                   <div class="btn-submit cursor-pointer flex gap-2 lg:gap-4 items-center mb-4 lg:mb-16 lg:mb-0 style_container__ZhG39">
                     <span class="initial items-center z-[2] flex gap-2 items-center">
                       <div autoplay="" class="w-6 lg:w-12">
