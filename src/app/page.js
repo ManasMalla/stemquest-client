@@ -5,7 +5,7 @@ import RightArrow from "./components/right_arrow";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between overflow-x-hidden">
+    <main className="flexa min-h-screen flex-col justify-between overflow-x-hidden">
       <div className="flex min-h-screen flex-col justify-between">
         <div className="flex justify-end md:px-24 items-center md:h-screen sky-background">
           <div className="relative h-screen w-full md:w-[unset] md:h-[85vh] md:aspect-[1/2] md:border-[10px] md:border-white md:rounded-[2.5rem] overflow-hidden z-10">
@@ -14,6 +14,10 @@ export default function Home() {
               <div className="w-1/2 bg-white h-full mx-auto rounded-b-xl" />
             </div>
           </div>
+          <img
+            src="/stemquest-logo.png"
+            className="absolute top-0 left-0 w-1/4 m-20"
+          />
           <div className="absolute w-56 h-56 -top-2 -right-4 hidden md:flex">
             <img
               src="/madeinindia.png"
@@ -137,10 +141,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-[#F1F8FE] -scale-x-100 z-30">
-        <img src="/mixer-5.svg" className="lg:w-1/5 ml-auto" alt="" />
+      <div className="relative bg-white -scale-x-100 z-30">
+        <img src="/mixer-5.svg" className="lg:w-1/3 ml-auto mr-auto" alt="" />
       </div>
-      <div className="flex flex-col lg:flex-row px-8 py-12 gap-y-4">
+      <div className="flex flex-col lg:flex-row-reverse items-[unset] lg:items-end px-8 py-12 gap-y-4 justify-between">
         <div>
           <ul className="flex gap-x-4">
             <li>
