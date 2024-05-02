@@ -34,7 +34,7 @@ export default function Home() {
           src="/stemquest-logo.png"
           className="absolute top-0 left-0 w-[8.5%] m-8 hidden lg:flex z-10"
         />
-        <div className="w-full h-full absolute z-[5]">
+        <div className="w-full h-full absolute z-[5] hidden lg:flex">
           <img src="/desktop-background.png" className="" alt="" />
 
           <div className="flex flex-col absolute h-screen items-start justify-center lg:px-32 px-8 py-16 z-20 -translate-y-8 translate-x-16 top-12 left-32">
